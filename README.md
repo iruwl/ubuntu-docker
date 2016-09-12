@@ -1,6 +1,6 @@
-# Dewian 
+# Ubuntu 16.04
 
-### Dewian (Docker image base on debian:latest)
+### Ubuntu 16.04 (Docker image base on ubuntu:latest)
 
 Normal user:
 
@@ -13,7 +13,9 @@ Dua (2) aplikasi tambahan:
 
 Repositori Lokal (Indonesia):
 
-  - deb http://kambing.ui.ac.id/debian/ jessie main contrib non-free
-  - deb http://kambing.ui.ac.id/debian/ jessie-updates main contrib non-free
-  - deb http://kambing.ui.ac.id/debian-security/ jessie/updates main contrib non-free
-# ubuntu-docker
+  - deb http://kambing.ui.ac.id/ubuntu/ xenial main restricted universe multiverse
+  - deb http://kambing.ui.ac.id/ubuntu/ xenial-updates main restricted universe multivers
+  - deb http://kambing.ui.ac.id/ubuntu/ xenial-security main restricted universe multivers
+  - deb http://kambing.ui.ac.id/ubuntu/ xenial-backports main restricted universe multivers
+  - deb http://kambing.ui.ac.id/ubuntu/ xenial-proposed main restricted universe multiverse
+
